@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+div#area{
+    background-color: green;
+    color: white;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    margin: auto;
+}
+
+div#area:hover{
+    cursor: pointer;
+}
