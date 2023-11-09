@@ -3,16 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela de Boas-Vindas</title>
+    <title>Verificador de Idade</title>
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <header>
-        <h1>Título</h1>
+        <h1>Verificador de Idade</h1>
     </header>
     <section>
-        <div></div>
-        <div></div>
+        <div>
+            <p>
+                Ano de nascimento:
+                <input type="number" name="t-ano" id="txtano">
+            </p>
+            <p>
+                Gênero:
+                <input type="radio" name="radgen" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radgen" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            <p>Preencha os dados acima para obter o resultado</p>
+        </div>
     </section>
     <footer>
         <p>Aluno do &copy;CursoemVideo</p>
